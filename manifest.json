@@ -1,0 +1,76 @@
+{
+  "id": "./",
+  "name": "Nunes Car Estética Automotiva",
+  "short_name": "Nunes Car",
+  "description": "Vitrine automotiva premium e simulador de orçamento rápido da Nunes Car Estética Automotiva em São José do Rio Preto - SP. Vitrificação, polimento técnico e higienização interna.",
+  "start_url": "./index.html?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "theme_color": "#09090B",
+  "background_color": "#09090B",
+  "categories": ["auto", "business", "lifestyle"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Simular Orçamento",
+      "short_name": "Orçamento",
+      "description": "Simular pré-orçamento em 3 cliques",
+      "url": "./index.html#orcamento",
+      "icons": [
+        {
+          "src": "./icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Nossos Serviços",
+      "short_name": "Serviços",
+      "description": "Vitrificação, polimento e higienização",
+      "url": "./index.html#servicos",
+      "icons": [
+        {
+          "src": "./icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Como Chegar",
+      "short_name": "Localização",
+      "description": "R. Augusto Bortoluzzo, 82 - Jardim Urupês",
+      "url": "./index.html#localizacao",
+      "icons": [
+        {
+          "src": "./icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
